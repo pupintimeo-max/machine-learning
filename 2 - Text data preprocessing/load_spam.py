@@ -9,9 +9,9 @@ from string import punctuation
 import numpy as np
 from sklearn.utils import shuffle
 import nltk
-#nltk.download('stopwords')
-#nltk.download('words')
-#nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('words')
+nltk.download('wordnet')
 
 class LemmaTokenizer(object):
     def __init__(self, remove_non_words=True):
